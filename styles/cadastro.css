@@ -1,0 +1,17 @@
+body{
+    background-color: var(--branco);
+    
+}
+.cabecalho{
+    background-color: var(--fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+    border-radius: 15px;
+    height: 20vh;
+    padding: 20px;
+}
+.texto{
+    color: var(--branco);
+}
