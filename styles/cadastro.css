@@ -2,6 +2,12 @@ body{
     background-color: var(--branco);
     
 }
+input{
+    height: 5vh;
+    width: 40vw;
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+}
 .cabecalho{
     background-color: var(--fundo);
     display: flex;
@@ -9,11 +15,38 @@ body{
     align-items: center;
     margin: 20px 20px;
     border-radius: 15px;
-    height: 20vh;
     padding: 20px;
 }
 .texto{
     color: var(--branco);
 }
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+.aviso{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.botoes{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.botao-entrar{
+    background-color: var(--fundo);
+    color: var(--amarelo);
+    width: 30vw;
+    height: 7vh;
+    border-radius: 10px;
+}
+.voltar{
+    color: black;
+}
+
 
 
