@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/cadastro.css">
-    <title>Document</title>
+    <title>Cadastre-se</title>
 </head>
 
 <body>
@@ -24,20 +24,29 @@
         </div>
     </header>
     <main class="formulario">
-        <p>Nome Completo: </p>
-        <input type="text" placeholder="seu nome" required>
-        <p>Email</p>
-        <input type="email" placeholder="email@email">
-        <p>Senha</p>
-        <input type="password" placeholder="digite sua senha">
-        <p>Confirmar senha</p>
-        <input type="password" placeholder="confirme sua senha">
+        <div class="direito">
+            <p>Nome Completo: </p>
+            <input type="text" placeholder="seu nome" required>
+            <p>Email</p>
+
+            <input type="email" placeholder="email@email" required>
+        </div>
+        <div class="esquerdo">
+            <p>Senha</p>
+            <input type="password" placeholder="digite sua senha" required>
+            <p>Confirmar senha</p>
+            <input type="password" placeholder="confirme sua senha" required>
+            <p class="texto-aviso">A senha deve conter letras, números e caracteres epeciais para maior segurança</p>
+        </div>
+    </main>
+    <footer class="botoes">
         <button type="submit" class="botao-entrar">
             ENTRAR
         </button>
-        <a href="login.html" class="voltar"></a>
+        <a href="login.html" class="voltar">Voltar</a>
+    </footer>
 
-    </main>
+
 </body>
 
 </html>
